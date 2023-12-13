@@ -1,0 +1,36 @@
+.title {
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.textarea {
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  padding: 8px;
+  margin-bottom: 12px;
+}
+
+.post-button {
+  font-weight: normal;
+  color: #F4F4F4;
+  background-color: #424242;
+  font-size: 20px;
+  padding: 8px 16px;
+  border-radius: 4px;
+  text-align: center;
+  width: fit-content;
+  justify-self: end;
+  box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+}
+
+.post-button:hover {
+  cursor: pointer;
+}
+
+.post-button:active {
+  transform: scale(0.98);
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+

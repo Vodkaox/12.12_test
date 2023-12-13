@@ -1,0 +1,74 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid lightgray;
+  padding: 10vh 5vw;
+  border-radius: 16px;
+}
+
+.sign-in {
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.log-in-button {
+  font-weight: normal;
+  display: block;
+  color: #F4F4F4;
+  background-color: #424242;
+  font-size: 20px;
+  padding: 8px 16px;
+  border-radius: 4px;
+  text-align: center;
+  width: 216px;
+  box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+}
+
+.log-in-button:hover {
+  cursor: pointer;
+}
+
+.log-in-button:active {
+  transform: scale(0.98);
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+.input {
+  margin-bottom: 16px;
+  padding: 8px 8px;
+  justify-self: center;
+  width: 200px;
+  height: 19px;
+  border: 1px solid lightgray;
+  display: block;
+}
+
+.label {
+  display: block;
+  margin-bottom: 4px;
+}
+
+.sign-up-letter {
+  font-size: 12px;
+  padding-top: 12px;
+  color: gray;
+}
+
+.sign-up-letter:hover {
+  cursor: pointer;
+}
+
+.offscreen {
+  font-size: 12px;
+}
+
+.errmsg {
+  font-size: 12px;
+  color: firebrick;
+}
